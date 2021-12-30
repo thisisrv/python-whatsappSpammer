@@ -15,10 +15,10 @@ wait = WebDriverWait(driver, 600)
 
 # Replace 'Friend's Name' with the name of your friend
 # or the name of a group
-target = '"contact_name"'
+target = '"Gunna"'
 
 # Replace the below string with your own message
-string = "message text"
+string = "I love you Gunna <3"
 
 x_arg = '//span[contains(@title,' + target + ')]'
 group_title = wait.until(EC.presence_of_element_located((
